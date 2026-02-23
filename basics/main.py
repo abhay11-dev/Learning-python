@@ -75,3 +75,17 @@ print("The result of c or d is: ",c or d) # or is used to check if at least one 
     This is a multi-line comment in Python. It is used to write comments that span multiple lines.
     It is enclosed within triple quotes (""" """) or triple single quotes (''' ''').
 """
+
+
+val1 = 1
+val2 = 1.2
+print("The value of sum is: ",val1 + val2) # addition of integer and float will result in a float
+
+num1 = input("Enter a number: ") # input() function is used to take input from the user. It will return the input as a string.
+print("The value of num1 is:",num1)
+
+num2 = int(input("Enter another number: ")) # int() function is used to convert the input string to an integer.
+print("The value of num2 is:",num2)
+
+num3 = float(input("Enter a float number: ")) # float() function is used to convert the input string to a float.
+print("The value of num3 is:",num3)
