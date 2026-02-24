@@ -28,3 +28,13 @@ print("Array after removing first occurrence of 0: ", arr)
 
 arr.pop(len(arr)-1)
 print("Array after popping last element: ", arr)
+
+
+
+#Palindrome check using list
+brr = arr.copy()
+brr.reverse()
+if arr == brr:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
