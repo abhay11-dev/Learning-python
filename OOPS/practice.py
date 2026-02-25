@@ -23,3 +23,7 @@ b1 = Bank(1000,"123456789")
 b1.credit(500)
 b1.debit(200)
 b1.balance()
+
+del b1
+print("Bank account deleted")
+print(b1)  # This will raise an error since b1 has been deleted
